@@ -23,7 +23,7 @@ The project is being developed using Python and Flask to gain practical experien
 ### Core Features
 
 - [x] Project setup
-- [x] Flask development environment
+- [ ] Flask development environment
 - [ ] Password strength scoring
 - [ ] Length validation
 - [ ] Uppercase and lowercase checks
@@ -52,6 +52,39 @@ The project is being developed using Python and Flask to gain practical experien
 ## Motivation
 
 This project was created to further develop my understanding of cybersecurity concepts outside of formal coursework. In particular, I wanted to explore how password security guidance can be implemented and communicated through a web application.
+
+## Project Structure
+
+```text
+password-security-analyser/
+│
+├── app.py
+├── password_checker.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── style.css
+│
+└── tests/
+    └── test_password_checker.py
+```
+
+### File Descriptions
+
+- `app.py` - Main Flask application and routing logic.
+- `password_checker.py` - Password analysis and scoring functions.
+- `requirements.txt` - Project dependencies.
+- `README.md` - Project documentation.
+- `.gitignore` - Files and folders excluded from Git tracking.
+- `templates/index.html` - Main user interface.
+- `static/style.css` - Application styling.
+- `tests/test_password_checker.py` - Unit tests for password analysis functions.
+``
 
 ## Development Roadmap
 
