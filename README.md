@@ -24,16 +24,16 @@ The project is being developed using Python and Flask to gain practical experien
 
 - [x] Project setup
 - [ ] Flask development environment
-- [ ] Password strength scoring
-- [ ] Length validation
-- [ ] Uppercase and lowercase checks
-- [ ] Numerical character detection
-- [ ] Special character detection
-- [ ] User feedback system
+- [X] Password strength scoring
+- [X] Length validation
+- [X] Uppercase and lowercase checks
+- [X] Numerical character detection
+- [X] Special character detection
+- [X] User feedback system
 
 ### Future Features
 
-- [ ] Common password detection
+- [X] Common password detection
 - [ ] Password entropy calculation
 - [ ] Password generation tool
 - [ ] Breach database integration
